@@ -1,0 +1,64 @@
+
+
+
+.scale:hover{
+	text-transform: uppercase;
+	text-decoration-line: underline;
+	text-shadow: 0.05rem 0.05rem 0 whitesmoke;
+}
+
+
+
+
+.prueba2{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+@keyframes cambios {
+	0% {margin-left: 0;}
+	33% {margin-left: 0;}
+
+	34% {margin-left: -100%;}
+	66% {margin-left: -100%;}
+
+	67% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+
+	
+	
+}
+.prueba2 ul{
+	padding: 0;
+	display: flex;
+	width: 400%;
+	
+	animation: cambios 10s infinite alternate;
+
+}
+
+.prueba2 li{
+	list-style: none;
+	width: 100%;
+}
+
+header div ul li img{
+	width: 100%;
+	
+}
+
+@keyframes cambios {
+	0% {margin-left: 0;}
+	33% {margin-left: 0;}
+
+	34% {margin-left: -160%;}
+	66% {margin-left: -160%;}
+
+	67% {margin-left: -280%;}
+	100% {margin-left: -280%;}
+
+}
+
+
+
