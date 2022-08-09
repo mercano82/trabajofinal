@@ -1,0 +1,39 @@
+nav{
+	background-color: map-get($map:$paleta, $key:"uno");
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	ul{
+		list-style: none;
+		background-color: map-get($map:$paleta, $key:"uno");
+		display: inline-block;
+		text-align: right;
+		text-indent: 2rem;
+		margin-right: 2rem;
+		li{
+			display: inline-flex;
+			height: 30%;
+			a{
+				font-size: 1.8rem;
+				color: lightgray;
+				text-decoration-line: none;
+			}
+		}
+	}
+}
+
+
+.navback{
+	background-color: map-get($map:$paleta, $key:"uno");
+}
+
+.navLogo{
+	width: 8rem;
+	height: 8rem;
+}
+
+.textonav{
+			font-size: 1.8rem;
+			color: lightgray;
+			text-decoration-line: none;
+}
