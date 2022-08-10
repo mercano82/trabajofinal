@@ -37,3 +37,42 @@ nav{
 			color: lightgray;
 			text-decoration-line: none;
 }
+
+
+@media(max-width: 840px){
+	nav ul li{
+				display: block;
+				height: 30%;
+				a{
+					font-size: 1.3rem;
+					color: lightgray;
+					text-decoration-line: none;
+				}
+	}
+
+}
+
+@media(max-width: 550px){
+
+
+	nav{
+		background-color: #324851;
+		display: block;
+		justify-content: center;
+		text-align: center;
+		ul{
+			list-style: none;
+			background-color: #324851;
+			display: block;
+			text-align: center;
+			text-indent: 2rem;
+			margin-right: 2rem;
+			li a{
+				font-size: 1.3rem;
+				color: lightgray;
+				text-decoration-line: none;
+			}
+
+		}
+	}
+}

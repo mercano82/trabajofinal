@@ -4,3 +4,54 @@
 @import "_navBar";
 @import "_footer";
 @import "animations";
+@import "_pages";
+
+
+main{
+	padding-bottom: 3rem;
+}
+
+
+h1{
+	font-size: $fontLg;
+	color: map-get($map:$paleta, $key:"cinco");
+	font-family: roboto,sans-serif;
+	padding: 1rem;
+}
+
+.mainParrafo{
+	margin: 2rem;
+	margin-bottom: 0rem;
+	color: map-get($map:$paleta, $key:"cinco");
+}
+
+
+
+
+.imagenCabanas{
+	width: 20rem;
+	height: AUTO;
+}
+
+h2{
+	font-size: $fontLg;
+	color: map-get($map:$paleta, $key:"cinco");
+	font-family: roboto,sans-serif;
+	font-style: italic;
+	margin-left: 2rem;
+}
+
+.parrafoCabanas{
+	margin: 2rem;
+	text-align: left;
+}
+
+.listaServicios{
+	display: flex;
+	justify-content: space-around;
+	margin: 3rem;
+}
+
+
+
+

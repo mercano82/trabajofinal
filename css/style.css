@@ -176,7 +176,7 @@ nav ul li a{
 }
 
 .mainSection{
-	display: block;
+	display: inline;
 	text-align: center;
 	padding: 4rem 5rem;
 }

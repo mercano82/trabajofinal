@@ -37,3 +37,205 @@ nav {
   font-size: 1.8rem;
   color: lightgray;
   text-decoration-line: none; }
+
+@media (max-width: 840px) {
+  nav ul li {
+    display: block;
+    height: 30%; }
+    nav ul li a {
+      font-size: 1.3rem;
+      color: lightgray;
+      text-decoration-line: none; } }
+
+@media (max-width: 550px) {
+  nav {
+    background-color: #324851;
+    display: block;
+    justify-content: center;
+    text-align: center; }
+    nav ul {
+      list-style: none;
+      background-color: #324851;
+      display: block;
+      text-align: center;
+      text-indent: 2rem;
+      margin-right: 2rem; }
+      nav ul li a {
+        font-size: 1.3rem;
+        color: lightgray;
+        text-decoration-line: none; } }
+
+footer {
+  display: grid;
+  grid-template-columns: 40vh 40vh;
+  grid-template-areas: "rrss repu";
+  justify-items: center;
+  justify-content: space-around;
+  height: 12 rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  background-color: #34675c; }
+
+h3 {
+  font-size: 1rem;
+  color: antiquewhite;
+  font-family: roboto,sans-serif;
+  text-align: center; }
+
+.footerEsq {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #324851; }
+
+.footerLogos {
+  width: 3.5rem;
+  height: 3.5rem; }
+
+@media (max-width: 550px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 23vh 23vh;
+    grid-template-areas: "rrss" "repu";
+    align-content: center;
+    height: 16rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    background-color: #34675c;
+    padding: 0,5rem; } }
+
+.maincabanas {
+  background-color: white;
+  padding-bottom: 2rem; }
+
+.mainSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: white; }
+
+.imagenCabanas {
+  width: 20rem;
+  height: AUTO; }
+
+.titulopages {
+  background-color: white;
+  color: #324851;
+  margin-top: 1rem; }
+
+.tituloh2 {
+  background-color: white;
+  color: #324851; }
+
+.parrafoCabanas {
+  width: auto;
+  height: auto;
+  margin: 1rem;
+  background-color: white; }
+
+.parrafolocation {
+  width: auto;
+  height: auto;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: white; }
+
+h2 {
+  font-size: 2rem;
+  color: antiquewhite;
+  font-family: roboto,sans-serif;
+  font-style: italic;
+  margin-left: 2rem; }
+
+.parrafoCabanas {
+  margin: 2rem;
+  text-align: left; }
+
+.listaServicios {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+  background-color: white; }
+
+.colorwhite {
+  background-color: white; }
+
+.colorform {
+  background-color: white;
+  color: #34675c; }
+
+.sectionLocation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "plocation" "map";
+  justify-content: space-around;
+  margin: 3rem; }
+
+@media (max-width: 840px) {
+  .mainSection {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem; }
+  .parrafoCabanas {
+    width: auto;
+    height: auto;
+    margin: 1rem; }
+  .listaServicios {
+    display: block;
+    margin-left: 40%; }
+  .sectionLocation {
+    display: grid;
+    grid-template-rows: 30vh 60vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: "plocation" "map";
+    align-items: center;
+    justify-content: center;
+    justify-items: center; } }
+
+@media (max-width: 550px) {
+  .imagenCabanas {
+    width: 12rem;
+    height: AUTO; } }
+
+main {
+  padding-bottom: 3rem; }
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  font-family: roboto,sans-serif;
+  padding: 1rem; }
+
+.mainParrafo {
+  margin: 2rem;
+  margin-bottom: 0rem;
+  color: white; }
+
+.imagenCabanas {
+  width: 20rem;
+  height: AUTO; }
+
+h2 {
+  font-size: 2rem;
+  color: white;
+  font-family: roboto,sans-serif;
+  font-style: italic;
+  margin-left: 2rem; }
+
+.parrafoCabanas {
+  margin: 2rem;
+  text-align: left; }
+
+.listaServicios {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem; }
